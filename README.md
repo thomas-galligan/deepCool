@@ -1,4 +1,6 @@
 # deepCool
+See the paper here: https://arxiv.org/abs/1901.01264
+
 This repository contains the source code for the training and deployment of deepCool, a neural network that allows fast and accurate calculations of cooling rates in irradiated astrophysical gases, allowing for non-homogeneous radiation fields. The code is highly flexible, and is suitable for adaptation to individual use cases (change in input features, etc.). 
 
 NN.py contains the source code for training deepCool for estimation of cooling rates (deepCool), heating rates (deepHeat) and metal-line only cooling rates (deepMetal). The neural network is saved in hdf5 format. At present it takes as input CLOUDY calculations from the cells of a preprocessed RAMSES-rt galaxy where each column corresponds to the target values and the features for each cell. This is easy to change to the individual user's needs. 
