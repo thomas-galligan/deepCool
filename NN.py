@@ -153,7 +153,7 @@ for i in range(len(bins)):
 
 
 
------------deepMetal-------------
+#-----------deepHeat-------------
 
 # Making the test - train split for heating rates
 X_train_heat, X_test_heat, y_train_heat, y_test_heat = train_test_split(features,heating_rates, test_size = 0.2, random_state=42)
