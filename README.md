@@ -5,3 +5,4 @@ NN.py contains the source code for training deepCool for estimation of cooling r
 
 deeph5.py reads the h5 file and outputs Fortran code for implementation in RAMSES-rt (https://arxiv.org/abs/1304.7126). It is robust to changes in feature dimension, but is currently not robust to changes in neural network architecture (number of layers, etc.). 
 
+formation_history.py contains code for determining star formation rates from a simulated galaxy. The impact of our improved calculations on star formation history is currently being investigated.
